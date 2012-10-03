@@ -1,0 +1,48 @@
+Admin\Persona:
+  repositoryClass: Repositories\Admin\PersonaRepository
+  type: entity
+  table: persona
+  fields:
+    id:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+    direccion:
+      type: string
+      length: '255'
+    telefono:
+      type: string
+      length: '255'
+    tipo_documento_id:
+      type: integer
+      length: '4'
+      notnull: true
+    especialidad_id:
+      type: integer
+      length: '4'
+      notnull: true
+    documento:
+      type: string
+      length: '60'
+    legajo:
+      type: string
+      length: '20'
+    apellido:
+      type: string
+      length: '120'
+    nombre:
+      type: string
+      length: '120'
+    fecha_nacimiento:
+      type: date
+      length: '25'
+    fecha_inscripcion:
+      type: date
+      length: '25'
+    email:
+      type: string
+      length: '60'
+    referencia:
+      type: string
+      length: '60'
