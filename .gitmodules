@@ -1,0 +1,3 @@
+[submodule "donejs"]
+	path = donejs
+	url = https://github.com/jupiterjs/donejs.git
