@@ -1,3 +1,6 @@
 [submodule "donejs"]
 	path = donejs
 	url = https://github.com/jupiterjs/donejs.git
+[submodule "bootstrap"]
+	path = bootstrap
+	url = https://github.com/twitter/bootstrap.git
